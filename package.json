@@ -6,13 +6,20 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "node test",
-    "mongoose": "^3.8.16"
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidjamesstone/vsd-db-mongoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidjamesstone/vsd-db-mongoose/issues"
+  },
+  "homepage": "https://github.com/davidjamesstone/vsd-db-mongoose",
+  "devDdependencies": {
+    "mongoose": "^3.8.21"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
