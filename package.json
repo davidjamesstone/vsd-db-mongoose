@@ -1,5 +1,5 @@
 {
-  "name": "vsd-mongoose-generator",
+  "name": "vsd-db-mongoose",
   "version": "0.0.0",
   "description": "Utilities to turn a JSON db config model in mongoose models and schema",
   "main": "index.js",
