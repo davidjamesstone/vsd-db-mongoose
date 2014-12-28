@@ -1,0 +1,18 @@
+{
+  "name": "vsd-mongoose-generator",
+  "version": "0.0.0",
+  "description": "Utilities to turn a JSON db config model in mongoose models and schema",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test",
+    "mongoose": "^3.8.16"
+  },
+  "author": "",
+  "license": "ISC"
+}
