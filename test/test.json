@@ -5,7 +5,6 @@
     {
       "id": "2899807",
       "name": "C1",
-      "installed": true,
       "keys": {
         "items": [
           {
@@ -259,7 +258,6 @@
     {
       "id": "7273097",
       "name": "C2",
-      "installed": true,
       "keys": {
         "items": [
           {
@@ -291,7 +289,7 @@
     {
       "id": "8764430",
       "name": "C3",
-      "installed": false,
+      "isVirtual": true,
       "keys": {
         "items": [
           {
@@ -324,7 +322,7 @@
     {
       "id": "4192730",
       "name": "C4",
-      "installed": false,
+      "isVirtual": true,
       "keys": {
         "items": [
           {
@@ -357,7 +355,6 @@
     {
       "id": "2535980",
       "name": "Customer",
-      "installed": true,
       "keys": {
         "items": [
           {
@@ -504,7 +501,6 @@
     {
       "id": "1630504",
       "name": "Order",
-      "installed": true,
       "keys": {
         "items": [
           {
@@ -531,7 +527,6 @@
     {
       "id": "4338995",
       "name": "p",
-      "installed": true,
       "keys": {
         "items": [
           {
@@ -561,7 +556,6 @@
     {
       "id": "3978193",
       "name": "refn",
-      "installed": true,
       "keys": {
         "items": [
           {

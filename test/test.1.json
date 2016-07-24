@@ -1,0 +1,105 @@
+{
+  "name": "my-model",
+  "schemas": [
+    {
+      "id": "6723066",
+      "name": "customer",
+      "keys": {
+        "items": [
+          {
+            "id": "6749383",
+            "name": "name",
+            "type": "String",
+            "def": {
+              "index": true,
+              "required": true,
+              "trim": true
+            }
+          },
+          {
+            "id": "9322408",
+            "name": "dob",
+            "type": "Date",
+            "def": {
+              "required": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4695564",
+      "name": "order",
+      "keys": {
+        "items": [
+          {
+            "id": "3773877",
+            "name": "product",
+            "type": "ForeignKey",
+            "def": {
+              "required": true,
+              "ref": "97358"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "97358",
+      "name": "product",
+      "keys": {
+        "items": [
+          {
+            "id": "1390522",
+            "name": "name",
+            "type": "String",
+            "def": {
+              "index": true,
+              "required": true,
+              "trim": true
+            }
+          },
+          {
+            "id": "4662949",
+            "name": "prices",
+            "type": "Array",
+            "def": {
+              "required": true,
+              "oftype": "ChildDocument",
+              "def": {
+                "required": true,
+                "ref": "2017861"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "2017861",
+      "name": "price",
+      "isVirtual": true,
+      "keys": {
+        "items": [
+          {
+            "id": "1344422",
+            "name": "currency",
+            "type": "String",
+            "def": {
+              "required": true,
+              "trim": true
+            }
+          },
+          {
+            "id": "8593952",
+            "name": "value",
+            "type": "Number",
+            "def": {
+              "required": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
