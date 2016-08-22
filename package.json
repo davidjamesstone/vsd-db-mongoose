@@ -1,6 +1,6 @@
 {
   "name": "vsd-db-mongoose",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utilities to turn a JSON db config model in mongoose models and schema",
   "main": "index.js",
   "directories": {
